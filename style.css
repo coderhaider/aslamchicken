@@ -332,6 +332,12 @@ h4{
     .menu-btn{
         padding: 10px 15px;
     }
+    #counter{
+        font-size: 10px;
+    }
+    .cart-btn{
+        font-size: 5px;
+    }
   }
 
   @media (max-width:543px) {
@@ -379,5 +385,8 @@ h4{
         font-size: 40px;
         width: 100%;
     }
-    
+  .cart-btn{
+    font-size: 1px;
+  }
+  
   }
