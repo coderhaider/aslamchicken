@@ -88,7 +88,7 @@ h3:hover{
 }
 
 .right img{
-    width: 500px;
+    width: 100%;
 }
 
 .left h2{
@@ -278,20 +278,21 @@ h4{
         height: 1000px;
         gap: 10px;
         flex-wrap: wrap;
+        padding: 20px;
 
     }
     .right{
         padding-top: 150px ;
     }
     .right img{
-        width: 350px;
+        width: 90%;
     }
 
     nav{
         gap: 5px;
     }
     .nav h2 {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
         font-family: "Playwrite AR", cursive;
         color: #e63946;
@@ -329,6 +330,9 @@ h4{
     .footer{
         flex-wrap: wrap;
     }
+    .menu-btn{
+        padding: 10px 20px;
+    }
   }
 
   @media (max-width:543px) {
@@ -337,7 +341,7 @@ h4{
         gap: 5px;
     }
     .nav h2 {
-        font-size: 9px;
+        font-size: 14px;
         font-weight: 700;
         font-family: "Playwrite AR", cursive;
         color: #e63946;
