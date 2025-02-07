@@ -276,6 +276,7 @@ h4{
         flex-direction: column-reverse;
         height: 1000px;
         gap: 10px;
+        flex-wrap: wrap;
 
     }
     .right{
@@ -323,6 +324,9 @@ h4{
     
     .nav3 i {
         font-size: 40px;
+    }
+    .footer{
+        flex-wrap: wrap;
     }
   }
 
