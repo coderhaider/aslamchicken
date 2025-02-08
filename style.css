@@ -399,3 +399,7 @@ h4{
         font-size: 200%;
     }
   }
+
+  .box4 a i:hover{
+    opacity: 0.60;
+  }
