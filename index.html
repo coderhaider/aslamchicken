@@ -35,17 +35,20 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Jaro:opsz@6..72&family=M+PLUS+Rounded+1c&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
         <div class="nav" >
-            <h2>Aslam <span>chic</span>ken</h2>
-            <div class="nav2">
+            <h2 data-aos="fade-up">Aslam <span>chic</span>ken</h2>
+            <div class="nav2" data-aos="fade-up">
                 <h3 id="home-tab">Home</h3>
                 <h3 id="menu-tab">Menu</h3>
                 <h3>About Us</h3>
                 <h3 id="cnt-tab">Contact</h3>
             </div>
-            <div class="nav3">
+            <div class="nav3" data-aos="fade-up">
                 <i class="fa-solid fa-bag-shopping cart-btn" id="click-cart" >
                     <button id="counter">0</button>
                 </i>
@@ -55,7 +58,7 @@
 
        
         <div class="content" id="header">
-            <div class="left">
+            <div class="left" data-aos="fade-up" data-aos-delay="200">
                 <h2>it's not just food, It's an Experience.</h2>
                 <div class="contentbtn">
                     <button class="menu-btn" id="view-menu">View Menu</button>
@@ -63,13 +66,13 @@
                 </div>
             </div>
 
-            <div class="right">
+            <div class="right" data-aos="fade" data-aos-delay="200">
                 <img src="./images/content/bg image.webp" alt="">
             </div>
         </div>
         
         <!-- first sention end -->
-        <div class="top">
+        <div class="top" data-aos="">
                 <h2>Savor the Flavors of Aslam Chicken: Culinary Creations That Delight</h2>
                 <p>Discover a world of flavor with Aslam Chicken's exquisite range of dishes, each crafted to tantalize your taste buds and elevate your dining experience. Our menu features a diverse selection of chicken creations, from succulent grilled masterpieces to hearty, spiced curries. Each dish is meticulously prepared with high-quality ingredients and a blend of unique spices, ensuring that every bite is a memorable delight. Whether you're in the mood for a comforting classic or an adventurous culinary journey, Aslam Chicken offers something for every palate. Dive into our collection and savor the perfect harmony of taste, texture, and tradition.
                 </p>
@@ -77,14 +80,14 @@
 
         <!-- Product section -->
          <div id="imgsection">
-                <div class="container" data-id="1">
+                <div class="container" data-id="1" data-aos="fade-up" data-aos-delay="50" data-aos-offset="300">
                     <img src="./images/images section/download.webp" alt="">
                     <h1>Chicken Fry</h1>
                     <h3>Rs 200</h3>
                     <button id="add-to-cart">Add Cart</button>
                     
                 </div>
-                <div class="container" data-id="2">
+                <div class="container" data-id="2" data-aos="fade-up" data-aos-delay="50" data-aos-offset="300">
                     <img src="./images/images section/fish.webp" alt="">
                     <h1>Fish Tikka</h1>
                     <h3>Rs 400</h3>
@@ -92,28 +95,28 @@
                     <button  id="add-to-cart" >Add Cart</button>
                    
                 </div>
-                <div class="container" data-id="3">
+                <div class="container" data-id="3" data-aos="fade-up" data-aos-delay="50" data-aos-offset="300">
                     <img src="./images/images section/kashmiri chicken kabab.webp" alt="">
                     <h1>kashmiri Kabab</h1>
                     <h3>Rs 50</h3>
                     <button  id="add-to-cart">Add Cart</button>
                     
                 </div>
-                <div class="container" data-id="4">
+                <div class="container" data-id="4" data-aos="fade-up" data-aos-delay="50" data-aos-offset="300">
                     <img src="./images/images section/butter chicen.webp" alt="">
                     <h1>Butter Chicken</h1>
                     <h3>Rs 150</h3>
                     <button  id="add-to-cart">Add Cart</button>
                    
                 </div>
-                <div class="container" data-id="5">
+                <div class="container" data-id="5" data-aos="fade-up" data-aos-delay="50" data-aos-offset="300">
                     <img src="./images/images section/kheer_1-450x274.webp" alt="">
                     <h1>Aslam Kheer</h1>
                     <h3>Rs 90</h3>
                     <button  id="add-to-cart">Add Cart</button>
                     
                 </div>
-                <div class="container" data-id="6">
+                <div class="container" data-id="6" data-aos="fade-up" data-aos-delay="50" data-aos-offset="300">
                     <img src="./images/images section/aslam_romali_roti.webp" alt="">
                     <h1>Romali Roti</h1>
                     <h3>Rs 15</h3>
@@ -161,5 +164,9 @@
        </div>
 
        <script src="script.js"></script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init();
+       </script>
 </body>
 </html>
