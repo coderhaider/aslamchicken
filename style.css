@@ -21,10 +21,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     gap: 10px;
-   padding: 0 30px;
+     padding: 0 30px;
     align-items: center;
-    z-index: +2;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: +2;
 
 }
 
@@ -263,10 +263,7 @@ h4{
     transition: all 0.3s ease-in-out ;
   }
 
-  #yourcart{
-    font-size: 20px;
 
-  }
 
   li{
     list-style: none;
@@ -290,27 +287,9 @@ h4{
         width: 80%;
     }
 
-    nav{
-        gap: 5px;
-        padding: 0 5px;
-    }
-    .nav h2 {
-        font-size: 18px;
-        font-weight: 700;
-        font-family: "Playwrite AR", cursive;
-        color: #e63946;
-    }
+   
     
-    .nav span {
-        font-size: 15px;
-        
-    }
     
-    .nav2 {
-        display: flex;
-        gap: 10px;
-    
-    }
     h3{
         cursor: pointer;
         color: #252422;
@@ -320,87 +299,22 @@ h4{
     h3:hover{
         opacity: 0.70;
         
-    }
-    .nav3 {
-        display: flex;
-        flex-direction: row;
-        gap: 0px;
-    }
+    }   
     
-    .nav3 i {
-        font-size: 40px;
-    }
+    
     .footer{
         flex-wrap: wrap;
     }
-    .menu-btn{
-        padding: 10px 15px;
-    }
-    #counter{
-        font-size: 10px;
-    }
-    .cart-btn{
-        font-size: 5px;
-    }
+
   }
 
   @media (max-width:543px) {
     
-    nav{
-        gap: 3px;
-    }
-    .nav h2 {
-        font-size: 10px;
-        font-weight: 700;
-        font-family: "Playwrite AR", cursive;
-        color: #e63946;
-    }
-    
-    .nav span {
-        font-size: 10px;
-        
-    }
-    
-    .nav2 {
-        display: flex;
-        gap: 2px;
-    
-    }
-    h3{
-        cursor: pointer;
-        color: #252422;
-        font-size: 10px;
-    
-    }
-    h3:hover{
-        opacity: 0.70;
-        
-    }
-    .nav3 {
-        display: flex;
-        flex-direction: row;
-        gap: 0px;
-    }
-    
-    .nav3 i {
-        font-size: 40px;
-    }
     .left h2{
         font-size: 40px;
         width: 100%;
     }
-  .cart-btn{
-    font-size: 1px;
-  }
   
   }
 
-  @media (max-width:369px) {
-    #click-cart{
-        font-size: 200%;
-    }
-  }
-
-  .box4 a i:hover{
-    opacity: 0.60;
-  }
+ 

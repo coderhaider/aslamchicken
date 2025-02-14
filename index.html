@@ -38,21 +38,27 @@
 
 <!-- AOS -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- nav.css -->
+ <link rel="stylesheet" href="./nav.css">
 </head>
 <body>
         <div class="nav" >
-            <h2 data-aos="fade-up">Aslam <span>chic</span>ken</h2>
-            <div class="nav2" data-aos="fade-up">
+            <h2 >Aslam <span>chic</span>ken</h2>
+            <div class="nav2"  id="navtwo">
                 <h3 id="home-tab">Home</h3>
                 <h3 id="menu-tab">Menu</h3>
                 <h3>About Us</h3>
                 <h3 id="cnt-tab">Contact</h3>
+                <div class="nav3" >
+                    <i class="fa-solid fa-bag-shopping cart-btn" id="click-cart" >
+                        <button id="counter">0</button>
+                    </i>
+                </div>
             </div>
-            <div class="nav3" data-aos="fade-up">
-                <i class="fa-solid fa-bag-shopping cart-btn" id="click-cart" >
-                    <button id="counter">0</button>
-                </i>
-              
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
             </div>
         </div>
 

@@ -89,3 +89,11 @@ const products = [
       behavior: 'smooth'
     });
   });
+
+
+  function toggleMenu() {
+    const navLinks = document.getElementById("navtwo");
+    const hamburger = document.getElementById("hamburger");
+    navLinks.classList.toggle("open");
+    hamburger.classList.toggle("open");
+}
