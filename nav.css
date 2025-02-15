@@ -21,9 +21,10 @@
         position: fixed;
         width: 100%;
         min-height: 100vh;
-        top: 0;
+        top: 80px;
         left: 0;
-        background-color: #0000008c;
+        z-index: -2;
+        background-color: #000000af;
         flex-direction: column;
         gap: 30px;
         justify-content: center;
