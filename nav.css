@@ -24,7 +24,7 @@
         top: 80px;
         left: 0;
         z-index: -2;
-        background-color: #000000af;
+        background-color: rgba(253, 252, 220, 0.726);
         flex-direction: column;
         gap: 30px;
         justify-content: center;
